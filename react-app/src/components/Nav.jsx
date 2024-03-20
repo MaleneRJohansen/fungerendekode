@@ -1,11 +1,5 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
-import Html from './Html'
-import Css from './Css'
-import Javascript from './Javascript'
-import Sanity from './Sanity'
-import Rect from './Rect'
-
 
 const Nav = () => {
   return (
