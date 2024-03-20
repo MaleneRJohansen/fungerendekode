@@ -1,10 +1,11 @@
 import React from 'react'
+import Nav from './Nav'
 
 const Javascript = () => {
   return (
-    <div>
-      JavaScript
-    </div>
+    <>
+    {<Nav/>}
+    </>
   )
 }
 

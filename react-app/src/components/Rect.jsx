@@ -1,10 +1,11 @@
 import React from 'react'
+import Nav from './Nav'
 
-function Rect() {
+const Rect = () => {
   return (
-    <div>
-      React
-    </div>
+    <>
+    {<Nav/>}
+    </>
   )
 }
 

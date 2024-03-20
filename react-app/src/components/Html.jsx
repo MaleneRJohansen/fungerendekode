@@ -1,10 +1,11 @@
 import React from 'react'
+import Nav from './Nav'
 
 const Html = () => {
   return (
-    <div>
-      HTML
-    </div>
+    <>
+    {<Nav/>}
+    </>
   )
 }
 
