@@ -10,7 +10,7 @@ const Nav = () => {
             <NavLink to='/css'>CSS</NavLink>
             <NavLink to='/javascript'>JavaScript</NavLink>
             <NavLink to='/react'>React</NavLink>
-            <NavLink to='/sanity'>Sanity</NavLink>
+            <NavLink to='/sanity'>Sanity and Headless CMS</NavLink>
         </ul>
     </nav>
     </>
