@@ -8,7 +8,6 @@ import Rect from './components/Rect'
 import Sanity from './components/Sanity'
 
 function App() {
-
   return (
     <Routes>
       <Route path='/' element={<Html/>}/>
@@ -18,6 +17,5 @@ function App() {
       <Route path='/sanity' element={<Sanity />}/>
     </Routes>
   )
-}
 
 export default App
