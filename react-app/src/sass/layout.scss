@@ -8,38 +8,47 @@ body {
 
 nav {
     display: flex;
-    place-content: space-between;
+    align-items: center;
 }
 
-nav h2 {
+nav ul {
+    display: flex;
+    place-content: space-between;
     background-color: #2A324B;
     padding: 1rem 2.5em;
     margin: 0rem;
     font-size: 1em;
     font-weight: 700;
+    width: 100%;
+
 }
 
-nav h2 a {
+.class {
     text-decoration: none;
     color: #fff;
+    padding: 1rem;
+
 }
 
-main {
-    display: flex;
+div{
+    flex-wrap: wrap;
+}
+
+
+.content{
     background-color: #FFF;
-    padding: 0rem 0rem 2rem 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
-    margin: 3rem;
-}
 
-#content h2 {
+.content h3 {
     color: #2A324B;
 }
 
-#content a {
+.content a {
     color: #58699D;
+
 }
+

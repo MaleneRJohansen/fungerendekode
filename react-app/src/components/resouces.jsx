@@ -6,7 +6,7 @@ const ResourceCategory = ({ category }) => {
   const filteredResources = resources.filter(resource => resource.category === category)
 
   return (
-    <div>
+    <div className='content'>
       {/* Her har chatgpt hjulpet med å finne en måte å gjøre overskriften til store bokstaver*/}
       <h3>{category.toUpperCase()}</h3>
       <ul>

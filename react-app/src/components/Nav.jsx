@@ -6,11 +6,11 @@ const Nav = () => {
     <>
     <nav>
         <ul>
-            <NavLink to='/'>HTML</NavLink>
-            <NavLink to='/css'>CSS</NavLink>
-            <NavLink to='/javascript'>JavaScript</NavLink>
-            <NavLink to='/react'>React</NavLink>
-            <NavLink to='/sanity'>Sanity and Headless CMS</NavLink>
+            <NavLink to='/'className='class'>HTML</NavLink>
+            <NavLink to='/css'className='class'>CSS</NavLink>
+            <NavLink to='/javascript'className='class'>JavaScript</NavLink>
+            <NavLink to='/react'className='class'>React</NavLink>
+            <NavLink to='/sanity'className='class'>Sanity and Headless CMS</NavLink>
         </ul>
     </nav>
     </>
