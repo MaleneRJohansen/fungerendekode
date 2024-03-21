@@ -17,5 +17,5 @@ function App() {
       <Route path='/sanity' element={<Sanity />}/>
     </Routes>
   )
-  }
+}
 export default App
