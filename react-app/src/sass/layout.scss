@@ -1,5 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --grey: #dce4ea;
+    --blue: #2A324B;
+    --white: #fff;
+    --font: 'Montserrat', sans-serif;
+    --dark-blue: #0a0a1a;
+    --content-padding: 1rem;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -8,38 +16,49 @@ body {
 
 nav {
     display: flex;
-    place-content: space-between;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: var(--blue);
 }
 
-nav h2 {
-    background-color: #2A324B;
+nav ul {
+    display: flex;
+    place-content: space-between;
     padding: 1rem 2.5em;
-    margin: 0rem;
+    margin: 0;
     font-size: 1em;
     font-weight: 700;
+    width: 100%;
 }
 
-nav h2 a {
+.class {
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
+    padding: 1rem;
 }
 
-main {
-    display: flex;
-    background-color: #FFF;
-    padding: 0rem 0rem 2rem 0rem;
+.class:hover {
+    color: var(--dark-blue);
+    
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
-    margin: 3rem;
+div {
+    flex-wrap: wrap;
 }
 
-#content h2 {
-    color: #2A324B;
+.content {
+    background-color: var(--white);
+    padding: var(--content-padding);
 }
 
-#content a {
-    color: #58699D;
+.content h3 {
+    color: var(--blue);
+}
+
+.content a {
+    color: var(--blue);
+}
+
+.content a:hover {
+    color: var(--dark-blue);
 }
